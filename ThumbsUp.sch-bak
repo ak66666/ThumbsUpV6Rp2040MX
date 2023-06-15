@@ -1035,12 +1035,6 @@ F 3 "~" H 6150 13100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	16400 11600 16400 11950
-Wire Wire Line
-	7450 11600 7450 11900
-Wire Wire Line
-	10350 11550 10350 11850
-Wire Wire Line
 	4100 14600 4100 14700
 Wire Wire Line
 	3400 14600 3400 14700
@@ -1081,17 +1075,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 13950 50
 F 3 "~" H 6150 13950 50  0001 C CNN
 	1    6150 13950
 	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 63651670
-P 6150 12200
-F 0 "J2" H 5950 12150 50  0000 L CNN
-F 1 "Conn_01x04_Male" V 6100 11900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 12200 50  0001 C CNN
-F 3 "~" H 6150 12200 50  0001 C CNN
-	1    6150 12200
-	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J8
@@ -1135,28 +1118,6 @@ F 1 "Conn_01x04_Female" H 14350 15850 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 14850 15600 50  0001 C CNN
 F 3 "~" H 14850 15600 50  0001 C CNN
 	1    14850 15600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J25
-U 1 1 636DA3F2
-P 12450 12150
-F 0 "J25" H 12250 12000 50  0000 L CNN
-F 1 "Conn_01x04_Male" V 12400 11850 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12450 12150 50  0001 C CNN
-F 3 "~" H 12450 12150 50  0001 C CNN
-	1    12450 12150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J29
-U 1 1 636DA3F8
-P 13000 12150
-F 0 "J29" H 13100 12100 50  0000 L CNN
-F 1 "Conn_01x04_Female" V 13050 11800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 13000 12150 50  0001 C CNN
-F 3 "~" H 13000 12150 50  0001 C CNN
-	1    13000 12150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2035,8 +1996,6 @@ Text GLabel 15200 14650 0    50   Input ~ 0
 K_MNU
 Wire Wire Line
 	14500 14550 14500 14650
-Wire Wire Line
-	14300 11600 14300 11950
 Text GLabel 12250 12450 0    50   Input ~ 0
 K_I
 Text GLabel 12250 12550 0    50   Input ~ 0
@@ -2451,25 +2410,25 @@ F 3 "" H 15150 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C18
+L TAJB107K006RNJV:TAJB107K006RNJV C18
 U 1 1 63C337FB
-P 15550 1300
-F 0 "C18" H 15642 1346 50  0000 L CNN
-F 1 "100uF" H 15642 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 15550 1300 50  0001 C CNN
-F 3 "~" H 15550 1300 50  0001 C CNN
-	1    15550 1300
-	1    0    0    -1  
+P 15550 1200
+F 0 "C18" V 15700 1400 50  0000 L CNN
+F 1 "100uF" V 15800 1400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 15550 1200 50  0001 C CNN
+F 3 "~" H 15550 1200 50  0001 C CNN
+	1    15550 1200
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0131
 U 1 1 63C33801
-P 15550 1400
-F 0 "#PWR0131" H 15550 1150 50  0001 C CNN
-F 1 "GND" H 15555 1227 50  0000 C CNN
-F 2 "" H 15550 1400 50  0001 C CNN
-F 3 "" H 15550 1400 50  0001 C CNN
-	1    15550 1400
+P 15550 1700
+F 0 "#PWR0131" H 15550 1450 50  0001 C CNN
+F 1 "GND" H 15555 1527 50  0000 C CNN
+F 2 "" H 15550 1700 50  0001 C CNN
+F 3 "" H 15550 1700 50  0001 C CNN
+	1    15550 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2483,11 +2442,6 @@ F 3 "" H 15850 1200 50  0001 C CNN
 	1    15850 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15450 1200 15550 1200
-Connection ~ 15550 1200
-Wire Wire Line
-	15550 1200 15850 1200
 $Comp
 L power:+3.3V #PWR0133
 U 1 1 63C33810
@@ -3204,17 +3158,6 @@ F 3 "~" H 6150 12700 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J21
-U 1 1 63650D67
-P 5600 12200
-F 0 "J21" H 5700 12150 50  0000 L CNN
-F 1 "Conn_01x04_Female" V 5650 11750 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5600 12200 50  0001 C CNN
-F 3 "~" H 5600 12200 50  0001 C CNN
-	1    5600 12200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x04_Female J20
 U 1 1 6364D01C
 P 5100 15200
@@ -3562,151 +3505,21 @@ Wire Wire Line
 Wire Wire Line
 	5450 14050 1600 14050
 Connection ~ 5450 14050
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX45
-U 1 1 6409F496
-P 2050 11150
-F 0 "MX45" H 2083 11373 60  0000 C CNN
-F 1 "SwGrave" H 2083 11299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 1425 11125 60  0001 C CNN
-F 3 "" H 1425 11125 60  0001 C CNN
-	1    2050 11150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX46
-U 1 1 6409F49C
-P 2750 11150
-F 0 "MX46" H 2783 11373 60  0000 C CNN
-F 1 "Sw1" H 2783 11299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 2125 11125 60  0001 C CNN
-F 3 "" H 2125 11125 60  0001 C CNN
-	1    2750 11150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX47
-U 1 1 6409F4A2
-P 3450 11150
-F 0 "MX47" H 3483 11373 60  0000 C CNN
-F 1 "Sw2" H 3483 11299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 2825 11125 60  0001 C CNN
-F 3 "" H 2825 11125 60  0001 C CNN
-	1    3450 11150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX48
-U 1 1 6409F4A8
-P 4150 11150
-F 0 "MX48" H 4183 11373 60  0000 C CNN
-F 1 "Sw3" H 4183 11299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 3525 11125 60  0001 C CNN
-F 3 "" H 3525 11125 60  0001 C CNN
-	1    4150 11150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 11350 4100 11300
-Wire Wire Line
-	3400 11400 3400 11300
-Wire Wire Line
-	2700 11450 2700 11300
-Wire Wire Line
-	2000 11500 2000 11300
-Wire Wire Line
-	2200 10750 2200 11100
-Connection ~ 2200 11100
-Connection ~ 2900 11100
-Connection ~ 3600 11100
-Connection ~ 4300 11100
-Wire Wire Line
-	2900 10750 2900 11100
 Connection ~ 2900 10750
 Wire Wire Line
 	2900 10750 2200 10750
-Wire Wire Line
-	3600 10750 3600 11100
 Connection ~ 3600 10750
 Wire Wire Line
 	3600 10750 2900 10750
-Wire Wire Line
-	4300 10750 4300 11100
 Wire Wire Line
 	4300 10750 3600 10750
 Wire Wire Line
 	1600 10750 2200 10750
 Connection ~ 2200 10750
 Wire Wire Line
-	4300 11100 4300 12000
-Wire Wire Line
-	3600 11100 3600 12000
-Wire Wire Line
-	2900 11100 2900 12000
-Wire Wire Line
-	2200 11100 2200 12000
-Wire Wire Line
 	1600 10750 1600 14050
 Wire Wire Line
-	5400 12400 4800 12400
-Wire Wire Line
-	4800 12400 4800 11500
-Wire Wire Line
-	2000 11500 4800 11500
-Wire Wire Line
-	5400 12300 4850 12300
-Wire Wire Line
-	4850 12300 4850 11450
-Wire Wire Line
-	2700 11450 4850 11450
-Wire Wire Line
-	5400 12200 4900 12200
-Wire Wire Line
-	4900 12200 4900 11400
-Wire Wire Line
-	3400 11400 4900 11400
-Wire Wire Line
-	5400 12100 4950 12100
-Wire Wire Line
-	4950 12100 4950 11350
-Wire Wire Line
-	4100 11350 4950 11350
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX50
-U 1 1 644085C1
-P 8000 11150
-F 0 "MX50" H 8033 11373 60  0000 C CNN
-F 1 "Sw5" H 8033 11299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 7375 11125 60  0001 C CNN
-F 3 "" H 7375 11125 60  0001 C CNN
-	1    8000 11150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX49
-U 1 1 644085C7
-P 7300 11150
-F 0 "MX49" H 7333 11373 60  0000 C CNN
-F 1 "Sw4" H 7333 11299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 6675 11125 60  0001 C CNN
-F 3 "" H 6675 11125 60  0001 C CNN
-	1    7300 11150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 10800 8150 11100
-Wire Wire Line
-	7450 10800 7450 11100
-Connection ~ 7450 11100
-Wire Wire Line
-	7450 11100 7450 11900
-Connection ~ 8150 11100
-Wire Wire Line
 	7450 10800 8150 10800
-Text GLabel 7250 11300 0    50   Input ~ 0
-K_4
-Text GLabel 7950 11300 0    50   Input ~ 0
-K_5
 $Comp
 L power:GND #PWR0118
 U 1 1 644085D6
@@ -3721,46 +3534,6 @@ $EndComp
 Wire Wire Line
 	8150 10800 8350 10800
 Connection ~ 8150 10800
-Wire Wire Line
-	8150 11100 8150 11900
-Text GLabel 6350 12400 2    50   Input ~ 0
-K_GRAVE
-Text GLabel 6350 12300 2    50   Input ~ 0
-K_1
-Text GLabel 6350 12200 2    50   Input ~ 0
-K_2
-Text GLabel 6350 12100 2    50   Input ~ 0
-K_3
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX52
-U 1 1 644EEB35
-P 10900 11150
-F 0 "MX52" H 10933 11373 60  0000 C CNN
-F 1 "Sw7" H 10933 11299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 10275 11125 60  0001 C CNN
-F 3 "" H 10275 11125 60  0001 C CNN
-	1    10900 11150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX51
-U 1 1 644EEB3B
-P 10200 11150
-F 0 "MX51" H 10233 11373 60  0000 C CNN
-F 1 "Sw6" H 10233 11299 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 9575 11125 60  0001 C CNN
-F 3 "" H 9575 11125 60  0001 C CNN
-	1    10200 11150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11050 10800 11050 11100
-Wire Wire Line
-	10350 10800 10350 11100
-Connection ~ 10350 11100
-Wire Wire Line
-	10350 11100 10350 11850
-Connection ~ 11050 11100
 Wire Wire Line
 	10350 10800 11050 10800
 $Comp
@@ -3777,16 +3550,10 @@ $EndComp
 Wire Wire Line
 	11050 10800 11250 10800
 Connection ~ 11050 10800
-Text GLabel 10150 11300 0    50   Input ~ 0
-K_6
-Text GLabel 10850 11300 0    50   Input ~ 0
-K_7
 Wire Wire Line
 	10350 11850 10350 11900
 Wire Wire Line
 	11050 11850 11050 11900
-Wire Wire Line
-	11050 11100 11050 11850
 Wire Wire Line
 	12250 13650 12250 13750
 Connection ~ 12250 13950
@@ -3807,110 +3574,14 @@ Wire Wire Line
 Wire Wire Line
 	13200 13950 13200 14000
 Connection ~ 13200 13950
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX56
-U 1 1 63F77152
-P 16550 11200
-F 0 "MX56" H 16583 11423 60  0000 C CNN
-F 1 "SwDEL" H 16583 11349 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 15925 11175 60  0001 C CNN
-F 3 "" H 15925 11175 60  0001 C CNN
-	1    16550 11200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX55
-U 1 1 63F77158
-P 15850 11200
-F 0 "MX55" H 15883 11423 60  0000 C CNN
-F 1 "Sw0" H 15883 11349 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 15225 11175 60  0001 C CNN
-F 3 "" H 15225 11175 60  0001 C CNN
-	1    15850 11200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX54
-U 1 1 63F7715E
-P 15150 11200
-F 0 "MX54" H 15183 11423 60  0000 C CNN
-F 1 "Sw9" H 15183 11349 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 14525 11175 60  0001 C CNN
-F 3 "" H 14525 11175 60  0001 C CNN
-	1    15150 11200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX53
-U 1 1 63F77164
-P 14450 11200
-F 0 "MX53" H 14483 11423 60  0000 C CNN
-F 1 "Sw8" H 14483 11349 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED_HotSwap" H 13825 11175 60  0001 C CNN
-F 3 "" H 13825 11175 60  0001 C CNN
-	1    14450 11200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	14500 11400 14500 11350
-Wire Wire Line
-	15200 11450 15200 11350
-Wire Wire Line
-	15900 11500 15900 11350
-Wire Wire Line
-	16600 11550 16600 11350
-Wire Wire Line
-	16400 10800 16400 11150
-Connection ~ 15000 11150
-Connection ~ 14300 11150
-Wire Wire Line
-	14300 11150 14300 11950
-Connection ~ 15700 11150
-Connection ~ 16400 11150
-Wire Wire Line
-	16400 11150 16400 11950
-Wire Wire Line
-	14300 10800 14300 11150
 Wire Wire Line
 	14300 10800 15000 10800
-Wire Wire Line
-	15000 10800 15000 11150
 Connection ~ 15000 10800
 Wire Wire Line
 	15000 10800 15700 10800
-Wire Wire Line
-	15700 10800 15700 11150
 Connection ~ 15700 10800
 Wire Wire Line
 	15700 10800 16400 10800
-Wire Wire Line
-	15700 11150 15700 11950
-Wire Wire Line
-	15000 11150 15000 11950
-Wire Wire Line
-	13200 12350 13800 12350
-Wire Wire Line
-	13800 12350 13800 11550
-Wire Wire Line
-	13800 11550 16600 11550
-Wire Wire Line
-	13200 12250 13750 12250
-Wire Wire Line
-	13750 12250 13750 11500
-Wire Wire Line
-	13750 11500 15900 11500
-Wire Wire Line
-	13200 12150 13700 12150
-Wire Wire Line
-	13700 12150 13700 11450
-Wire Wire Line
-	13700 11450 15200 11450
-Wire Wire Line
-	13200 12050 13650 12050
-Wire Wire Line
-	13650 12050 13650 11400
-Wire Wire Line
-	13650 11400 14500 11400
 Wire Wire Line
 	17050 14000 17050 10800
 Wire Wire Line
@@ -3918,28 +3589,8 @@ Wire Wire Line
 Wire Wire Line
 	13200 14000 17050 14000
 Connection ~ 16400 10800
-Text GLabel 12250 12350 0    50   Input ~ 0
-K_8
-Text GLabel 12250 12250 0    50   Input ~ 0
-K_9
-Text GLabel 12250 12150 0    50   Input ~ 0
-K_0
-Text GLabel 12250 12050 0    50   Input ~ 0
-K_DEL
-Text GLabel 12550 8150 0    50   Input ~ 0
-K_6
-Text GLabel 12550 8250 0    50   Input ~ 0
-K_DEL
-Text GLabel 12550 8350 0    50   Input ~ 0
-K_0
 Wire Wire Line
 	13950 9150 13950 9650
-Text GLabel 14050 9150 3    50   Input ~ 0
-K_9
-Text GLabel 14150 9150 3    50   Input ~ 0
-K_8
-Text GLabel 14550 7750 2    50   Input ~ 0
-K_7
 Wire Wire Line
 	19050 13350 19150 13350
 Connection ~ 19150 13350
@@ -3993,10 +3644,6 @@ Text GLabel 5600 15050 2    50   Input ~ 0
 K_WIN
 NoConn ~ 3450 9200
 NoConn ~ 3550 9200
-Text GLabel 4250 8200 2    50   Input ~ 0
-K_1
-Text GLabel 4250 7900 2    50   Input ~ 0
-K_2
 $Comp
 L power:+3.3V #PWR0150
 U 1 1 63C3E3CC
@@ -4013,18 +3660,8 @@ Wire Wire Line
 Connection ~ 4850 8100
 Wire Wire Line
 	4850 8100 5200 8100
-Text GLabel 4250 7800 2    50   Input ~ 0
-K_3
-Text GLabel 4250 8300 2    50   Input ~ 0
-K_GRAVE
 Wire Wire Line
 	3650 9200 3650 9550
-Text GLabel 3850 9200 3    50   Input ~ 0
-K_5
-Text GLabel 3750 9200 3    50   Input ~ 0
-K_4
-Text GLabel 20550 10400 3    50   Input ~ 0
-K_5
 $Comp
 L Connector:Conn_01x04_Female J51
 U 1 1 64043CBA
@@ -4282,4 +3919,48 @@ Wire Wire Line
 Connection ~ 5250 1250
 Wire Wire Line
 	5250 1250 5550 1250
+Wire Wire Line
+	15450 1200 15550 1200
+Connection ~ 15550 1200
+Wire Wire Line
+	15550 1200 15850 1200
+Wire Wire Line
+	2200 10750 2200 12000
+Wire Wire Line
+	2900 10750 2900 12000
+Wire Wire Line
+	3600 10750 3600 12000
+Wire Wire Line
+	4300 10750 4300 12000
+Wire Wire Line
+	7450 10800 7450 11900
+Wire Wire Line
+	8150 10800 8150 11900
+Wire Wire Line
+	11050 10800 11050 11850
+Wire Wire Line
+	10350 10800 10350 11850
+Wire Wire Line
+	14300 10800 14300 11950
+Wire Wire Line
+	15000 10800 15000 11950
+Wire Wire Line
+	15700 10800 15700 11950
+Wire Wire Line
+	16400 10800 16400 11950
+NoConn ~ 3850 9200
+NoConn ~ 3750 9200
+NoConn ~ 4250 7800
+NoConn ~ 4250 7900
+NoConn ~ 4250 8200
+NoConn ~ 4250 8300
+NoConn ~ 12550 8150
+NoConn ~ 12550 8250
+NoConn ~ 13750 9150
+NoConn ~ 13850 9150
+NoConn ~ 14050 9150
+NoConn ~ 14150 9150
+NoConn ~ 14550 7750
+NoConn ~ 12550 8350
+NoConn ~ 20550 10400
 $EndSCHEMATC
