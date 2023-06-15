@@ -1,0 +1,18 @@
+.TAJB107K006RNJV :1 ;Tantalum Capacitors - Solid SMD 6V 100uF 10% 1210 ESR = 1.7 Ohms
+CAPPM3528X210N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN TAJB107K006RNJV
+~!Manufacturer_Name (AVX)
+~!Manufacturer_Part_Number (TAJB107K006RNJV)
+~!Mouser Part Number (581-TAJB107K006RNJV)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/AVX/TAJB107K006RNJV?qs=k4kUdCzLgS40BaXg2EcjHA%3D%3D)
+~!Arrow Part Number (TAJB107K006RNJV)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tajb107k006rnjv/avx?region=nac)
+~!Link Datasheet (http://datasheets.avx.com/TAJ.pdf)
+~!Height (2.1mm)
+~!3D_Model (TAJB107K006RNJV)
+TAJB107K006RNJV
+1.1!U 2.1!U 

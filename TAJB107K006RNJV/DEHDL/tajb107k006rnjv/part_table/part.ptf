@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TAJB107K006RNJV'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "AVX", "TAJB107K006RNJV" (!) = "", "CAPPM3528X210N", "Capacitor Moulded Polarised", "581-TAJB107K006RNJV", "https://www.mouser.co.uk/ProductDetail/AVX/TAJB107K006RNJV?qs=k4kUdCzLgS40BaXg2EcjHA%3D%3D", "TAJB107K006RNJV", "https://www.arrow.com/en/products/tajb107k006rnjv/avx?region=nac", "Tantalum Capacitors - Solid SMD 6V 100uF 10% 1210 ESR = 1.7 Ohms", "http://datasheets.avx.com/TAJ.pdf", "2.1 mm"
+END_PART
+
+END.

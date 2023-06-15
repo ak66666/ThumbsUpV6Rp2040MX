@@ -1,0 +1,127 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TAJB107K006RNJV"
+   (description "Tantalum Capacitors - Solid SMD 6V 100uF 10% 1210 ESR = 1.7 Ohms")
+   (family "CAP")
+   (package "CAPPM3528X210N")
+   (attribute "Datasheet Link" "http://datasheets.avx.com/TAJ.pdf")
+   (attribute "Geometry.Height" "2.1mm")
+   (attribute "Manufacturer_Name" "AVX")
+   (attribute "Manufacturer_Part_Number" "TAJB107K006RNJV")
+   (attribute "Mouser Part Number" "581-TAJB107K006RNJV")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/TAJB107K006RNJV?qs=k4kUdCzLgS40BaXg2EcjHA%3D%3D")
+   (attribute "Arrow Part Number" "TAJB107K006RNJV")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tajb107k006rnjv/avx?region=nac")
+   (gate
+    (symbol "TAJB107K006RNJV")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "TAJB107K006RNJV"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100) (pt 230 -100) (pt 230 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 50) (pt 140 50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 70) (pt 160 30))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 300 -100) (pt 270 -100) (pt 270 100) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPPM3528X210N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.6 1.75)
+      (pt 2.6 1.75)
+      (pt 2.6 -1.75)
+      (pt -2.6 -1.75)
+      (pt -2.6 1.75))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 1.425)
+      (pt 1.75 1.425)
+      (pt 1.75 -1.425)
+      (pt -1.75 -1.425)
+      (pt -1.75 1.425))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.75 0.525)
+      (pt -0.85 1.425))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.75 1.425)
+      (pt -2.35 1.425))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.75 -1.425)
+      (pt 1.75 -1.425))))
+   (leg 1 (pt -1.45 0) (padstack 0))
+   (leg 2 (pt 1.45 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.8 2.3 0 0 90))
+   )
+   (model "TAJB107K006RNJV.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

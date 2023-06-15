@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TAJB107K006RNJV
+D Tantalum Capacitors - Solid SMD 6V 100uF 10% 1210 ESR = 1.7 Ohms
+K
+F http://datasheets.avx.com/TAJ.pdf
+$ENDCMP
+#
+#End Doc Library
