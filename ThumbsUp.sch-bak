@@ -3962,5 +3962,6 @@ NoConn ~ 14050 9150
 NoConn ~ 14150 9150
 NoConn ~ 14550 7750
 NoConn ~ 12550 8350
-NoConn ~ 20550 10400
+Text GLabel 20550 10400 3    50   Input ~ 0
+K_T
 $EndSCHEMATC
