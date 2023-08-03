@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C8","10uF","C_0402_1005Metric",160.570000,-425.110000,270.000000,bottom
 "C18","100uF","C_1210_3225Metric",164.080000,-426.430000,180.000000,bottom
 "C19","0.1uF","C_0402_1005Metric",159.045000,-466.340000,0.000000,bottom
